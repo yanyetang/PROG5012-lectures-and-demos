@@ -1,6 +1,12 @@
 $primary-color: #1481da;
 $secondary-color: rgba(28, 186, 57, 0.8);
+$third-color: red;
 
- body {
+body {
   background-color: $primary-color;
+  color: $secondary-color;
+}
+
+p {
+  color: $third-color;
 }
